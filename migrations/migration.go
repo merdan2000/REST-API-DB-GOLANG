@@ -5,7 +5,7 @@ import (
 	"fmt"
 	_ "github.com/jackc/pgx/v4/stdlib"
 	"github.com/merdan2000/internal/settings"
-	"github.com/pressly/goose"
+	"github.com/pressly/goose/v3"
 )
 
 var embedMigrations embed.FS
